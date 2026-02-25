@@ -296,7 +296,7 @@ def get_optimize():
 
 
 def get_universe():
-    link = "I:/ABT_IM/PMAR/Renten/Credits/Data/Market/Index/"
+    link = folder # add folder to data here
     xist = False
     date = dt.datetime.today()
 
@@ -320,3 +320,4 @@ if __name__ == "__main__":
     # get_universe().to_excel("H:/Python/Tools/port_optimization/index.xlsx")
 
     get_optimize()
+
